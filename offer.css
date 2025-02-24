@@ -1,0 +1,71 @@
+
+html {
+    display: table;
+    margin: auto;
+}
+body{
+     margin: 0 auto;
+     }
+/*body {
+    display: table-cell;
+    vertical-align: middle;
+} */
+body{
+    background-color: rgb(245, 245, 245);
+    font-family:  "Playwrite VN", serif;
+    color: aliceblue;
+}
+
+.box{
+    
+    border-radius: 5px;
+    display: grid;
+   width: 600px; 
+   height: 642px; 
+   position: relative;
+   top: 200px; 
+   justify-items: center; 
+   align-items: center;
+
+}
+
+.columns{
+
+    display: grid;
+    grid-template-columns: repeat(2,  1fr); 
+    border-radius: 5px;
+    background-color: rgb(124, 115, 30);
+}
+.column1{
+    border: 1px solid rgb(0, 0, 0);
+    font-size: xx-large;
+    border-radius: 5px;
+}
+.column2{ 
+    border: 1px solid rgb(0, 0, 0);
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+.filler{
+    background-color: rgb(228, 161, 99);
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 5px;
+
+}
+.rows{
+    display: grid;
+    grid-template-columns:  repeat(2, 300px); 
+    grid-template-rows:  repeat(2, 100px); 
+    border-radius: 5px;
+    
+}
+.rows2{
+    display: grid;
+    grid-template-columns:  repeat(2, 300px); 
+    grid-template-rows:  repeat(2, 100px); 
+    border-radius: 5px;
+
+}
